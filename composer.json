@@ -1,0 +1,21 @@
+{
+    "name": "maxShipitko/builder_macros",
+    "description": "Laravel builder macros",
+    "keywords": ["laravel", "builder", "macros", "eloquent", "orm"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maksim Shipitko",
+            "email": "max.shipitko@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/database": "5.*",
+        "illuminate/support": "5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "maxShipitko\\BuilderMacros\\": "src/"
+        }
+    }
+}
